@@ -30,7 +30,6 @@
 
 <br/>
 
-
 <a id="Resultados"></a>
 ## 🚀 Resultados 
   > Abandonei o projeto em python, pois acretido que vai ser mais produtivo e eviciente fazer todo projeto em JavaScript, HTML e CSS. 
@@ -40,10 +39,6 @@
 ![tela](https://user-images.githubusercontent.com/60453269/225974165-69aabb9a-d18d-45c7-bc9c-48c80d059c62.png) |
 
 
-
-<br/> 
-
-### Em andamento 
 
 <br />   
 
