@@ -26,7 +26,7 @@
 <a id="Introdução"></a>
 ## 🧩 Introdução 
 
-  ***⠀⠀⠀⠀Em Andamento***
+  ***⠀⠀⠀⠀A proposta inicial do projeto consiste em aprimorar e incorporar algumas funções ao ChatGPT, que atualmente não estão disponíveis mas seriam úteis. No entanto, faz um tempo desde a última vez que trabalhei com Python, então decidi utilizar esse projeto como forma de praticar minhas habilidades. A medida que fui avançando com o projeto, percebi que seria interessante transformá-lo em uma aplicação web, ao invés de manter o desenvolvimento em Python. Embora Python seja uma linguagem simples e dinâmica, sua programação pode ser um pouco tediosa e não é ideal para criar aplicativos com uma interface visual atraente.***
 
 <br/>
 
@@ -53,9 +53,15 @@
 
 <br />   
 
-  ### ***⠀⠀⠀⠀Em andamento***
+  - https://platform.openai.com/account/api-keys
 
-- https://platform.openai.com/account/api-keys
+  - kivy
+  - openai
+  - speech_recognition
+  - gtts
+  - playsound
+  - os
+
   
 <br />   
 
@@ -66,12 +72,12 @@
 
 <br />
 
-  ### ***⠀⠀⠀⠀Em andamento**
 
-
-<br /> 
-
-- [ ] ***- s*** 
+- [ ] ***- Melhora o visual*** 
+- [ ] ***- Criar um sistema para salva a ultima Key***
+- [ ] ***- Criar modulos das funções para reduzir o codigo***
+- [ ] ***- Criar personalidades para a ia de forma que as respostas saim menos robotica*** 
+- [ ] ***- Trasforma o .py em Apk***
 
 
 <br /> 
