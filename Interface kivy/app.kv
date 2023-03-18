@@ -1,0 +1,66 @@
+#:import hex kivy.utils.get_color_from_hex
+
+
+<Layout>:
+
+    canvas.before:
+        Rectangle:
+            source: 'fundo.png'
+            size: self.size  
+            pos: self.pos
+
+    orientation: 'vertical'
+    # orientation: 'horizontal'
+
+    spacing: '20dp'
+    padding: '20dp', '40dp'
+
+    Label:
+        text: "api_key"
+
+    TextInput:
+        id: key
+        # size_hint: .25 , .25
+
+    Label:
+        text: "Txt"
+    TextInput:
+        id: txt
+        on_text_validate: self.input_text(self.text)
+        # size_hint: .25 , .25
+
+
+            
+    Button:
+        id: enviar_input
+        background_normal: ''
+        text:'envia'
+        # background_color: '#5D7791'
+        background_color: '#ff0073'
+        size_hint: .25 , .1
+        on_release: root.input_text()
+    
+                
+    Button:
+        id: enviar_input_voz
+        background_normal: ''
+        text:'Falar'
+        background_color: '#5D7791'
+        size_hint: .25 , .1
+        on_release: root.voice_identify()
+
+        
+        
+    
+    # BoxLayout:
+    #     orientation: 'horizontal'
+
+    #     canvas.before:
+    #         Color: 
+    #             rgba:  hex(#ff0073)
+    #         Rectangle:
+    #             size: self.size
+    #             pos: self.pos
+    #     size_hint_y: .05
+    #     Label:
+    #         text: "OpenAi ChatGPT Voz"
